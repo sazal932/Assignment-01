@@ -30,6 +30,8 @@
     padding: 15px 25px;
     margin-right: 160px;
     margin-top: 25px;
+    border-radius: 10px;
+    border: none;
 }
 .primary-btn:hover{
     cursor: pointer;
@@ -37,11 +39,15 @@
 .main-section{
     margin-top: 130px;
     display: flex;
+    height: 700px;
 }
 .main-img{
     margin-left: 150px;
-    width: 350px;
-    height: 400px;
+    flex: 2;
+}
+.main-img img{
+    height: 650px;
+    width: 550px;
 }
 .main-section-title{
     font-size: 40px;
@@ -53,8 +59,12 @@
     color: #444343;
 }
 .main-failure{
-    margin-top: 200px;
-    margin-left: 320px;
+    display: flex;
+    flex: 2;
+    align-items: center;
+}
+.sub-main-failure{
+    width: 450px;
 }
 .main-list{
     list-style: none;
@@ -65,8 +75,42 @@
 .main-list:before{
     content: '✓'; color: rgb(3, 255, 3);
 }
+.motivation-section{
+    display: flex;
+    margin-top: 0px;
+    height: 800px;
+    align-items: center;
+    background-color:#0364b410 ;
+}
+
+.motivation{
+    flex: 2;
+}
+.motivation-img{
+    flex: 2;
+    margin-left: 150px;
+}
+.motivation-img img{
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+    /* border: 1px solid rgb(204, 197, 197); */
+}
+.motivation-tips{
+    margin-left: 80px;
+}
+.motivation-title{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.motivation-description{
+    color: #707070;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-weight: bold;
+}
 .plans-section{
-    margin-top: 300px;
+    margin-top: 100px;
 }
 .plans{
     display: flex;
@@ -91,13 +135,14 @@
     margin-right: 90px;
 }
 .liner-grade{
-    background-image: url(images/gradient1.png);
-    background-image: url(images/watch.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-     
-    border-radius: 10px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+    height: 300px;
+    width: 80%;
+     border-radius: 10px;
+     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 100px;
-    text-align: center;
+    
 }
 .liner-title{
     /* color: white; */
@@ -109,14 +154,18 @@
     color: white;
 }
 .positive-mindset{
-    margin: 20px 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 .gradiend-btn{
     color: #005FAC;
     font-weight: 600;
     padding: 15px 25px;
-    margin-right: 700px;
-    margin-bottom: 200px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 60px;
+
 }
 .gradiend-btn:hover{
     cursor: pointer;
@@ -131,6 +180,7 @@
     /* text-align: center; */
     text-align: left;
     margin-left: 200px;
+    flex: 2;
 }
 .footer-class{
     background-color: black;
@@ -139,12 +189,17 @@
 }
 .footer-subscribe{
     margin-right: 200px;
+    flex: 2;
+    margin-left: 350px ;
 }
 .footer-input{
     color: antiquewhite;
     background-color: none;
     width: 250px;
     height: 40px;
+    border: 1px solid white;
+    outline: none;
+    padding-left: 20px;
     border-radius: 10px;
     background-color: black;
     margin-bottom: 30px;
@@ -164,4 +219,10 @@
    background-color: red;
     color: white;
     cursor: pointer;
+}
+.footer-icon{
+    margin-right: 15px;
+}
+.footer-description{
+    text-align: justify;
 }
