@@ -127,12 +127,18 @@
 }
 .web-dev-plan{
     margin-left: 150px;
+    text-align: center;
 }
 .js-plan{
     margin-right: 40px;
+    text-align: center;
 }
 .ecomm-plan{
     margin-right: 90px;
+    text-align: center;
+}
+.smok-plan{
+    text-align: center;
 }
 .liner-grade{
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
