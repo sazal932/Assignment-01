@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+/* For header section  */
 .header-bg{
     background-image: url(images/banner/banner3.png);
     width: 100%;
@@ -36,6 +37,7 @@
 .primary-btn:hover{
     cursor: pointer;
 }
+/* For Body 1st section='failure of previous year'  */
 .main-section{
     margin-top: 130px;
     display: flex;
@@ -75,6 +77,7 @@
 .main-list:before{
     content: '✓'; color: rgb(3, 255, 3);
 }
+/* For Body 2nd section= 'motivation tips' */
 .motivation-section{
     display: flex;
     margin-top: 0px;
@@ -109,6 +112,7 @@
     line-height: 20px;
     font-weight: bold;
 }
+/* For Body 3rd section= 'My plans'  */
 .plans-section{
     margin-top: 100px;
 }
@@ -140,6 +144,7 @@
 .smok-plan{
     text-align: center;
 }
+/* For  Body 4rth section= 'Liner-gradient' */
 .liner-grade{
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
     height: 300px;
@@ -176,6 +181,7 @@
 .gradiend-btn:hover{
     cursor: pointer;
 }
+/* For Footer section  */
 .footer-container{
     width: 100%;
     display: flex;
